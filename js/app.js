@@ -3470,6 +3470,11 @@
             slidesPerView: 3,
             spaceBetween: 56,
             speed: 800,
+            effect: "fade",
+            autoplay: {
+                delay: 1e3,
+                disableOnInteraction: false
+            },
             navigation: {
                 prevEl: ".portfolio__arrow_left",
                 nextEl: ".portfolio__arrow_right"
