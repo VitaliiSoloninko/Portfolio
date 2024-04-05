@@ -1175,7 +1175,7 @@ h6 {
 }
 
 .form__item-textarea {
-  height: 11.875rem;
+  height: 8.75rem;
 }
 
 .form__input {
@@ -1255,7 +1255,7 @@ h6 {
 }
 
 textarea.form__input {
-  height: 11.875rem;
+  height: 8.75rem;
   resize: vertical;
 }
 
