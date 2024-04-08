@@ -391,6 +391,8 @@ h6 {
   top: 0;
   left: 0;
   z-index: 100;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   background-color: rgba(255, 255, 255, 0.75);
 }
 
@@ -407,7 +409,7 @@ h6 {
   gap: 0.9375rem;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  min-height: 123px;
+  min-height: 80px;
 }
 
 .header__logo {
@@ -762,20 +764,18 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #eae6fe;
+  border-radius: 0.5rem;
 }
 
 .navigation-career__title:not(:last-child) {
-  margin-bottom: 0.5625rem;
+  margin-bottom: 0.3125rem;
 }
 
 .navigation-career__title::after {
   font-size: 0.75rem;
   content: "\e903";
   display: none;
-}
-
-._tab-spoller .navigation-career__title {
-  border: 1px solid rgba(102, 110, 115, 0.2);
 }
 
 ._tab-spoller .navigation-career__title::after {
@@ -786,8 +786,8 @@ h6 {
 }
 
 .navigation-career__title._tab-active {
-  background-color: #fff;
-  color: #7e74f1;
+  color: #fff;
+  background-color: #cbc2fc;
 }
 
 .navigation-career__title._tab-active::after {
@@ -841,6 +841,15 @@ h6 {
 
 .content-career__time:not(:last-child) {
   margin-bottom: 1rem;
+}
+
+.content-career__categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0.3125rem;
 }
 
 .list-content-career__item {
@@ -1451,7 +1460,7 @@ textarea.form__input {
   }
 
   .portfolio__header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.875rem;
   }
 
   .portfolio__wrapper:not(:last-child) {
@@ -1932,15 +1941,15 @@ textarea.form__input {
     }
 }
 
-@supports (margin-bottom: clamp( 1.25rem , 0.8104395604rem  +  2.1978021978vw , 2.5rem )) {
+@supports (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .portfolio__header {
-      margin-bottom: clamp( 1.25rem , 0.8104395604rem  +  2.1978021978vw , 2.5rem );
+      margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1.25rem , 0.8104395604rem  +  2.1978021978vw , 2.5rem )) {
+@supports not (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .portfolio__header {
-      margin-bottom: calc(1.25rem + 1.25 * (100vw - 20rem) / 56.875);
+      margin-bottom: calc(1.25rem + 0.625 * (100vw - 20rem) / 56.875);
     }
 }
 
