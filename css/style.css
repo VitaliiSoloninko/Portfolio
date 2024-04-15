@@ -4,7 +4,6 @@
 
 @charset "UTF-8";
 
-.navigation-career__title::after,
 [class*=_icon-]:before {
   font-family: "icons";
   font-style: normal;
@@ -457,6 +456,10 @@ h6 {
   /* 19/16 */
 }
 
+.menu__link._navigator-active {
+  text-decoration: underline;
+}
+
 .icon-menu {
   display: none;
 }
@@ -570,7 +573,7 @@ h6 {
   position: absolute;
   bottom: 0;
   left: 0;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .portfolio__container {
@@ -749,12 +752,6 @@ h6 {
 }
 
 .navigation-career__title {
-  width: 100%;
-  padding: 0.875rem 1.5rem;
-  text-align: left;
-  line-height: 1.1875;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -764,6 +761,11 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  padding: 0.875rem 1.5rem;
+  text-align: left;
+  line-height: 1.1875;
   background-color: #cbc2fc;
   border-radius: 0.5rem;
 }
@@ -772,32 +774,9 @@ h6 {
   margin-bottom: 0.5625rem;
 }
 
-.navigation-career__title::after {
-  font-size: 0.75rem;
-  content: "\e903";
-  display: none;
-}
-
-._tab-spoller .navigation-career__title::after {
-  display: block;
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
 .navigation-career__title._tab-active {
   color: #fff;
   background-color: #7e74f1;
-}
-
-.navigation-career__title._tab-active::after {
-  display: block;
-}
-
-._tab-spoller .navigation-career__title._tab-active::after {
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
 }
 
 ._tab-spoller .content-career__body {
@@ -1863,6 +1842,10 @@ textarea.form__input {
             justify-content: space-between;
   }
 
+  .portfolio__arrow {
+    background-color: #cbc2fc;
+  }
+
   .content-skills__items {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
@@ -2407,6 +2390,7 @@ textarea.form__input {
 
   .menu__link:hover {
     color: #7e74f1;
+    text-decoration: underline;
   }
 
   .footer__social .social__link:hover {
