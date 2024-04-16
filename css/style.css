@@ -515,8 +515,8 @@ h6 {
           align-items: center;
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 5rem;
-  padding-bottom: 1.875rem;
+  padding-top: 4.375rem;
+  padding-bottom: 1.25rem;
   -webkit-column-gap: 1.25rem;
      -moz-column-gap: 1.25rem;
           column-gap: 1.25rem;
@@ -587,8 +587,8 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 5rem;
-  padding-bottom: 1.875rem;
+  padding-top: 4.375rem;
+  padding-bottom: 1.25rem;
 }
 
 .portfolio__header {
@@ -729,8 +729,8 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 5rem;
-  padding-bottom: 1.875rem;
+  padding-top: 4.375rem;
+  padding-bottom: 1.25rem;
 }
 
 .career__body {
@@ -942,8 +942,8 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 5rem;
-  padding-bottom: 1.875rem;
+  padding-top: 4.375rem;
+  padding-bottom: 1.25rem;
 }
 
 .testimonials__items {
@@ -1168,8 +1168,8 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 5rem;
-  padding-bottom: 1.875rem;
+  padding-top: 4.375rem;
+  padding-bottom: 0.9375rem;
 }
 
 .form {
@@ -1457,11 +1457,11 @@ textarea.form__input {
   }
 
   .main-section__title:not(:last-child) {
-    margin-bottom: 2rem;
+    margin-bottom: 1.875rem;
   }
 
   .main-section__text:not(:last-child) {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.875rem;
   }
 
   .portfolio__header {
@@ -1479,15 +1479,15 @@ textarea.form__input {
   }
 
   .career__body {
-    row-gap: 2.5rem;
+    row-gap: 1.875rem;
   }
 
   .content-career__header {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.875rem;
   }
 
   .blog__title:not(:last-child) {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.875rem;
   }
 
   .blog__items {
@@ -1495,7 +1495,7 @@ textarea.form__input {
   }
 
   .testimonials__title:not(:last-child) {
-    margin-bottom: 5.625rem;
+    margin-bottom: 5rem;
   }
 
   .testimonials__items {
@@ -1517,7 +1517,7 @@ textarea.form__input {
   }
 
   .skills__title:not(:last-child) {
-    margin-bottom: 2rem;
+    margin-bottom: 1.875rem;
   }
 
   .skills__body {
@@ -1583,11 +1583,11 @@ textarea.form__input {
   }
 
   .main-section__title:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
 
   .main-section__text:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
 
   .portfolio__header {
@@ -1609,7 +1609,7 @@ textarea.form__input {
   }
 
   .content-career__header {
-    padding-bottom: 1rem;
+    padding-bottom: 1.25rem;
   }
 
   .blog__title:not(:last-child) {
@@ -1621,7 +1621,7 @@ textarea.form__input {
   }
 
   .testimonials__title:not(:last-child) {
-    margin-bottom: 4.375rem;
+    margin-bottom: 3.75rem;
   }
 
   .testimonials__items {
@@ -1643,7 +1643,7 @@ textarea.form__input {
   }
 
   .skills__title:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
 
   .skills__body {
@@ -1673,7 +1673,7 @@ textarea.form__input {
   }
 
   .contacts__form:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 0.625rem;
   }
 
   .form__item-textarea:not(:last-child) {
@@ -1817,7 +1817,7 @@ textarea.form__input {
   .main-section__container {
     -ms-grid-columns: auto;
     grid-template-columns: auto;
-    row-gap: 1.875rem;
+    row-gap: 1.25rem;
   }
 
   .decor-main-section {
@@ -1960,27 +1960,27 @@ textarea.form__input {
     }
 }
 
-@supports (margin-bottom: clamp( 1rem , 0.6483516484rem  +  1.7582417582vw , 2rem )) {
+@supports (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .main-section__title:not(:last-child) {
-      margin-bottom: clamp( 1rem , 0.6483516484rem  +  1.7582417582vw , 2rem );
+      margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1rem , 0.6483516484rem  +  1.7582417582vw , 2rem )) {
+@supports not (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .main-section__title:not(:last-child) {
-      margin-bottom: calc(1rem + 1 * (100vw - 20rem) / 56.875);
+      margin-bottom: calc(1.25rem + 0.625 * (100vw - 20rem) / 56.875);
     }
 }
 
-@supports (margin-bottom: clamp( 1rem , 0.4725274725rem  +  2.6373626374vw , 2.5rem )) {
+@supports (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .main-section__text:not(:last-child) {
-      margin-bottom: clamp( 1rem , 0.4725274725rem  +  2.6373626374vw , 2.5rem );
+      margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1rem , 0.4725274725rem  +  2.6373626374vw , 2.5rem )) {
+@supports not (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .main-section__text:not(:last-child) {
-      margin-bottom: calc(1rem + 1.5 * (100vw - 20rem) / 56.875);
+      margin-bottom: calc(1.25rem + 0.625 * (100vw - 20rem) / 56.875);
     }
 }
 
@@ -2024,39 +2024,39 @@ textarea.form__input {
     }
 }
 
-@supports (row-gap: clamp( 1.25rem , 0.8104395604rem  +  2.1978021978vw , 2.5rem )) {
+@supports (row-gap: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .career__body {
-      row-gap: clamp( 1.25rem , 0.8104395604rem  +  2.1978021978vw , 2.5rem );
+      row-gap: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem );
     }
 }
 
-@supports not (row-gap: clamp( 1.25rem , 0.8104395604rem  +  2.1978021978vw , 2.5rem )) {
+@supports not (row-gap: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .career__body {
-      row-gap: calc(1.25rem + 1.25 * (100vw - 20rem) / 56.875);
+      row-gap: calc(1.25rem + 0.625 * (100vw - 20rem) / 56.875);
     }
 }
 
-@supports (padding-bottom: clamp( 1rem , 0.8241758242rem  +  0.8791208791vw , 1.5rem )) {
+@supports (padding-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .content-career__header {
-      padding-bottom: clamp( 1rem , 0.8241758242rem  +  0.8791208791vw , 1.5rem );
+      padding-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 1rem , 0.8241758242rem  +  0.8791208791vw , 1.5rem )) {
+@supports not (padding-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .content-career__header {
-      padding-bottom: calc(1rem + 0.5 * (100vw - 20rem) / 56.875);
+      padding-bottom: calc(1.25rem + 0.625 * (100vw - 20rem) / 56.875);
     }
 }
 
-@supports (margin-bottom: clamp( 1.25rem , 0.8104395604rem  +  2.1978021978vw , 2.5rem )) {
+@supports (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .blog__title:not(:last-child) {
-      margin-bottom: clamp( 1.25rem , 0.8104395604rem  +  2.1978021978vw , 2.5rem );
+      margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1.25rem , 0.8104395604rem  +  2.1978021978vw , 2.5rem )) {
+@supports not (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .blog__title:not(:last-child) {
-      margin-bottom: calc(1.25rem + 1.25 * (100vw - 20rem) / 56.875);
+      margin-bottom: calc(1.25rem + 0.625 * (100vw - 20rem) / 56.875);
     }
 }
 
@@ -2072,15 +2072,15 @@ textarea.form__input {
     }
 }
 
-@supports (margin-bottom: clamp( 4.375rem , 3.9354395604rem  +  2.1978021978vw , 5.625rem )) {
+@supports (margin-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
     .testimonials__title:not(:last-child) {
-      margin-bottom: clamp( 4.375rem , 3.9354395604rem  +  2.1978021978vw , 5.625rem );
+      margin-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 4.375rem , 3.9354395604rem  +  2.1978021978vw , 5.625rem )) {
+@supports not (margin-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
     .testimonials__title:not(:last-child) {
-      margin-bottom: calc(4.375rem + 1.25 * (100vw - 20rem) / 56.875);
+      margin-bottom: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
     }
 }
 
@@ -2136,15 +2136,15 @@ textarea.form__input {
     }
 }
 
-@supports (margin-bottom: clamp( 1rem , 0.6483516484rem  +  1.7582417582vw , 2rem )) {
+@supports (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .skills__title:not(:last-child) {
-      margin-bottom: clamp( 1rem , 0.6483516484rem  +  1.7582417582vw , 2rem );
+      margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1rem , 0.6483516484rem  +  1.7582417582vw , 2rem )) {
+@supports not (margin-bottom: clamp( 1.25rem , 1.0302197802rem  +  1.0989010989vw , 1.875rem )) {
     .skills__title:not(:last-child) {
-      margin-bottom: calc(1rem + 1 * (100vw - 20rem) / 56.875);
+      margin-bottom: calc(1.25rem + 0.625 * (100vw - 20rem) / 56.875);
     }
 }
 
@@ -2224,15 +2224,15 @@ textarea.form__input {
     }
 }
 
-@supports (margin-bottom: clamp( 1rem , 0.9120879121rem  +  0.4395604396vw , 1.25rem )) {
+@supports (margin-bottom: clamp( 0.625rem , 0.4052197802rem  +  1.0989010989vw , 1.25rem )) {
     .contacts__form:not(:last-child) {
-      margin-bottom: clamp( 1rem , 0.9120879121rem  +  0.4395604396vw , 1.25rem );
+      margin-bottom: clamp( 0.625rem , 0.4052197802rem  +  1.0989010989vw , 1.25rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 1rem , 0.9120879121rem  +  0.4395604396vw , 1.25rem )) {
+@supports not (margin-bottom: clamp( 0.625rem , 0.4052197802rem  +  1.0989010989vw , 1.25rem )) {
     .contacts__form:not(:last-child) {
-      margin-bottom: calc(1rem + 0.25 * (100vw - 20rem) / 56.875);
+      margin-bottom: calc(0.625rem + 0.625 * (100vw - 20rem) / 56.875);
     }
 }
 
